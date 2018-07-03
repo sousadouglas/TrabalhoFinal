@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:orientation="vertical"
+android:background="@color/background_material_dark"
+    >
+
+    <Button
+        android:id="@+id/btnNome"
+        android:layout_width="169dp"
+        android:layout_height="109dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:background="@color/primary_material_dark_1"
+        android:onClick="alterarNome"
+        android:text="@string/altNome"
+
+        android:textColor="@color/common_google_signin_btn_text_dark" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_marginLeft="100px"
+        android:layout_row="3"
+        android:background="@color/primary_material_dark_1"
+        android:text="@string/iniciar"
+
+        android:textColor="@color/common_google_signin_btn_text_dark"
+        android:visibility="invisible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnLocal"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="175dp"
+        android:layout_row="4"
+        android:background="@color/primary_material_dark_1"
+        android:clickable="true"
+        android:onClick="procurar"
+
+
+        app:backgroundTint="@color/primary_material_dark_1"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <TextView
+        android:id="@+id/txtBemvindo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:text="@string/bemVindo"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+
+        />
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:ems="10"
+        android:hint="@string/altNome"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        android:textColor="#ffffff"
+
+
+        />
+
+    <TextView
+        android:id="@+id/txtPergunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:textColor="@color/common_google_signin_btn_text_dark" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        app:backgroundTint="@color/primary_material_dark_1"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/edLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:ems="10"
+        android:hint="@string/pais"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+
+
+
+        />
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="214dp"
+        android:layout_height="109dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:background="#6617650e"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="213dp"
+        android:layout_height="107dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:background="@color/primary_material_dark_1"
+        android:onClick="salvarNome"
+        android:text="Salva o nome"
+        android:textColor="@color/common_google_signin_btn_text_dark"
+        android:visibility="invisible" />
+
+</GridLayout>

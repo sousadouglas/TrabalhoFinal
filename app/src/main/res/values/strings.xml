@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MapaFinal</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="altNome">Alterar Nome</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="bemVindo">Bem Vindo,</string>
+    <string name="google_maps_key">AIzaSyBNQ6sX5GnXN5Zz7b_RU48MiMCjbkPXG0o</string>
+    <string name="pais">Digite o País</string>
+    <string name="score">Respostas Corretas</string>
+    <string name="title_activity_pergunta">PerguntaActivity</string>
+    <string name="title_activity_seguneda_tela_actuvity">SegunedaTelaActuvity</string>
+</resources>
